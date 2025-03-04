@@ -43,6 +43,7 @@ public class Main {
         ciutadansCity1.add(refCiutada3);
 
         // UPDATE - Actualitzem la primera ciutat amb els seus ciutadans
+        //! Peta
         Manager.updateCiutat(refCiutat1.getCiutatId(), refCiutat1.getNom(), refCiutat1.getPais(), refCiutat1.getPoblacio(), ciutadansCity1);
 
         // Creem un set de ciutadans per la segona ciutat
